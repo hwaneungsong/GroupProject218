@@ -1,7 +1,7 @@
 # GroupProject218
 | Date       | Tuesday Signings | Thursday Signings |
 |------------|------------------|------------------|
-| Nov 7      | Hwan Eung Song   | [Partner's Name] |
+| Nov 7      | Hwan Eung Song   | Philipe Queiroz  |
 | Nov 9      | [Your Name]      | [Partner's Name] |
 | Nov 14     | [Your Name]      | [Partner's Name] |
 | Nov 16     | [Your Name]      | [Partner's Name] |
