@@ -1,0 +1,56 @@
+.productSection {
+    background-color: #f7f2f8; /* Light purple background */
+    text-align: center;
+    padding: 2rem;
+    padding-top: 5%;
+    padding-bottom: 8%;
+  }
+  
+  .productHeader {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .productContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .productCard {
+    background: #fff;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    min-height: 500px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .productCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .productImage {
+    width: 100%;
+    background-image: url('../images/Towels.png');
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+    margin: 1rem auto 0 auto;
+  }
+  
+  .productTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  
