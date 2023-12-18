@@ -4,7 +4,12 @@
     text-align: center;
     padding: 20px;
     padding-top: 13%;
+<<<<<<< HEAD
     padding-bottom: 13%;
+=======
+    padding-bottom: 13%; 
+    font-family: Quattrocento; 
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
   }
   
   .mainTitle {
@@ -32,7 +37,11 @@
   
   .testimonialText {
     font-size: 1.3rem;
+<<<<<<< HEAD
     font-style: italic;
+=======
+    font-family: Quattrocento; 
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
     color: #666;
   }
   

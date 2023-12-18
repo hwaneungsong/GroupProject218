@@ -11,4 +11,8 @@ export default function OfferSection() {
       </Button>
     </section>
   );
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0

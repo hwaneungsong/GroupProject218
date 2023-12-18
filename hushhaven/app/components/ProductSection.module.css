@@ -4,6 +4,10 @@
     padding: 2rem;
     padding-top: 5%;
     padding-bottom: 8%;
+<<<<<<< HEAD
+=======
+    font-family: Quattrocento; 
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
   }
   
   .productHeader {
@@ -33,6 +37,7 @@
   }
   
   .productImage {
+<<<<<<< HEAD
     width: 100%;
     background-image: url('../images/Towels.png');
     height: auto;
@@ -42,6 +47,18 @@
     margin: 1rem auto 0 auto;
   }
   
+=======
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the area and maintains aspect ratio */
+    object-position: center; /* Center the image within the container */
+    border-radius: 15px; /* Rounded corners for the image */
+    display: block; /* Ensures the image is on its own line */
+    margin: 1rem auto; /* Center the image horizontally within the container */
+  }
+  
+  
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
   .productTitle {
     position: absolute;
     top: 0;
@@ -52,5 +69,9 @@
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 10px;
+<<<<<<< HEAD
+=======
+    font-family: Quattrocento; 
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
   }
   

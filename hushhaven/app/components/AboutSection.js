@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './AboutSection.modules.css'; // Ensure the stylesheet is linked correctly
+<<<<<<< HEAD
 
+=======
+hushhaven/app/components/AboutSection.modules.css
+>>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
 export default function AboutSection() {
   return (
     <section className={styles.aboutSection}>
