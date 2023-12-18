@@ -1,51 +1,77 @@
 /* Footer.module.css */
 .footer {
+    background-color: #f7f2f8;
+    color: #333;
+    padding: 40px;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f0c5; /* Adjust the color to match the image */
+    flex-wrap: wrap;
   }
   
-  
-  .logo {
-    width: 50px; /* Adjust the size as needed */
-    height: auto;
+  .navSection, .socialSection, .newsletterSection {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
   }
   
-  .navContainer, .socialContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  .navHeader, .socialHeader, .newsletterHeader {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
   
-  .navLink, .socialLink {
-    margin-bottom: 5px;
-    color: #000; /* Adjust the color as needed */
+  .footerLink {
+    display: block;
+    color: #333;
     text-decoration: none;
-    font-size: 14px; /* Adjust the size as needed */
-  }
-  
-  .socialTitle {
-    font-weight: bold;
     margin-bottom: 5px;
+    transition: color 0.3s;
   }
   
-  .newsletterContainer {
+  .footerLink:hover {
+    color: #0066cc;
+  }
+  
+  .newsletterForm {
     display: flex;
+    gap: 10px;
   }
   
-  .emailInput {
-    padding: 5px;
-    margin-right: 5px;
-    font-size: 14px; /* Adjust the size as needed */
-    border: 1px solid #000; /* Adjust the color as needed */
+  .newsletterInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
-  .submitButton {
-    padding: 5px 15px;
-    background-color: #ffd700; /* Gold color for the button */
+  .newsletterButton {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .copyRightText {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navSection, .socialSection, .newsletterSection {
+      min-width: 100%;
+      text-align: center;
+    }
   }
   

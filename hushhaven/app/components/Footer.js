@@ -1,26 +1,34 @@
 import React from 'react';
-import styles from './Footer.module.css'; // Ensure the stylesheet is linked correctly
+import styles from './Footer.modules.css'; // Make sure this path is correct
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.logoContainer}>
-        <img src="/path-to-your-logo.png" alt="Hush Haven Logo" className={styles.logo} />
+      <div className={styles.navSection}>
+        <h4 className={styles.navHeader}>Explore</h4>
+        <a href="/home" className={styles.footerLink}>Home</a>
+        <a href="/about" className={styles.footerLink}>About</a>
+        <a href="/shop" className={styles.footerLink}>Shop</a>
+        <a href="/reviews" className={styles.footerLink}>Reviews</a>
       </div>
-      <div className={styles.navContainer}>
-        <a href="/home" className={styles.navLink}>Home</a>
-        <a href="/shop" className={styles.navLink}>Shop Now</a>
-        <a href="/about" className={styles.navLink}>About</a>
-        <a href="/reviews" className={styles.navLink}>Reviews</a>
+
+      <div className={styles.socialSection}>
+        <h4 className={styles.socialHeader}>Follow Us</h4>
+        <a href="https://instagram.com" className={styles.footerLink}>Instagram</a>
+        <a href="https://twitter.com" className={styles.footerLink}>Twitter</a>
+        <a href="https://facebook.com" className={styles.footerLink}>Facebook</a>
       </div>
-      <div className={styles.socialContainer}>
-        <span className={styles.socialTitle}>Follow Us</span>
-        <a href="/instagram" className={styles.socialLink}>Instagram</a>
-        <a href="/twitter" className={styles.socialLink}>Twitter</a>
+
+      <div className={styles.newsletterSection}>
+        <h4 className={styles.newsletterHeader}>Stay Updated</h4>
+        <form className={styles.newsletterForm}>
+          <input type="email" placeholder="Your email address" className={styles.newsletterInput} />
+          <button type="submit" className={styles.newsletterButton}>Subscribe</button>
+        </form>
       </div>
-      <div className={styles.newsletterContainer}>
-        <input type="text" placeholder="Email Address" className={styles.emailInput} />
-        <button className={styles.submitButton}>SUBMIT</button>
+
+      <div className={styles.footerBottom}>
+        <p className={styles.copyRightText}>&copy; {new Date().getFullYear()} Hush Haven. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './AboutSection.modules.css'; // Ensure the stylesheet is linked correctly
 
-
 export default function AboutSection() {
   return (
     <section className={styles.aboutSection}>
