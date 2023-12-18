@@ -4,7 +4,7 @@ import RootLayout, {siteTitle} from './layout'
 import NavigationBar from './components/NavigationBar'
 import HeroSection from './components/HeroSection'
 import OfferSection from './components/OfferSection'
-
+import AboutSection from './components/AboutSection'
 export default function Home() {
   return (  
     <RootLayout home>
@@ -17,7 +17,15 @@ export default function Home() {
       </div>
       <div>
         <OfferSection />
+      </div>  
+
+      <div>
+        <AboutSection />
       </div>
+
+
+
+
     </RootLayout>
   )
 }
