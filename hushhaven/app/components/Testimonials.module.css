@@ -4,7 +4,8 @@
     text-align: center;
     padding: 20px;
     padding-top: 13%;
-    padding-bottom: 13%;
+    padding-bottom: 13%; 
+    font-family: Quattrocento; 
   }
   
   .mainTitle {
@@ -32,7 +33,7 @@
   
   .testimonialText {
     font-size: 1.3rem;
-    font-style: italic;
+    font-family: Quattrocento; 
     color: #666;
   }
   

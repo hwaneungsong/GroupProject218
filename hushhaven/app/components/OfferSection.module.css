@@ -5,6 +5,7 @@
     text-align: center;
     padding: 40px 0; /* Increased padding to match the image */
     position: relative; /* For absolute positioning of the button */
+    font-family: Quattrocento; 
   }
   
   /* Style for the button - adjust as needed */
