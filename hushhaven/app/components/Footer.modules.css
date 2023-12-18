@@ -1,0 +1,51 @@
+/* Footer.module.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f0c5; /* Adjust the color to match the image */
+  }
+  
+  
+  .logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .navContainer, .socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navLink, .socialLink {
+    margin-bottom: 5px;
+    color: #000; /* Adjust the color as needed */
+    text-decoration: none;
+    font-size: 14px; /* Adjust the size as needed */
+  }
+  
+  .socialTitle {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .newsletterContainer {
+    display: flex;
+  }
+  
+  .emailInput {
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 14px; /* Adjust the size as needed */
+    border: 1px solid #000; /* Adjust the color as needed */
+  }
+  
+  .submitButton {
+    padding: 5px 15px;
+    background-color: #ffd700; /* Gold color for the button */
+    border: none;
+    cursor: pointer;
+  }
+  
