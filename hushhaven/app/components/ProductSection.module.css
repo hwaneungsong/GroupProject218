@@ -1,0 +1,42 @@
+/* ProductSection.module.css */
+.productSection {
+    background-color: #f7f2f8; /* Light purple background or as seen in the image */
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .productHeader {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .productContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .productCard {
+    background: #fff;
+    border-radius: 20px; /* Rounded corners as seen in the image */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .productCard:hover {
+    transform: scale(1.05); /* Slightly scale up the card on hover */
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Rounded corners for the image */
+  }
+  
+  .productTitle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase; /* Uppercase product titles */
+  }
+  
