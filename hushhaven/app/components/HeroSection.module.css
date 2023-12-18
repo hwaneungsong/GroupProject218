@@ -1,0 +1,53 @@
+.herostyle {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/HushHavenHeroPic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.textoverlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.textoutline {
+    text-shadow: -2px -2px 0 #F0E5AB, 2px -2px 0 #F0E5AB, -2px 2px 0 #F0E5AB, 2px 2px 0 #F0E5AB;
+}
+
+.herobutton {
+    position: absolute;
+    bottom: 30%; 
+    left: 50%; 
+    transform: translate(-50%, 50%);
+}
+
+.headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+}
+
+.headingXL {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 0;
+}
+
+.heading2XL {
+    color: black;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 0;
+    text-align: center;
+}
