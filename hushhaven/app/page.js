@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection'
 import OfferSection from './components/OfferSection'
 import ProductSection from './components/ProductSection'
 import AboutSection from './components/AboutSection'
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
   return (  
@@ -28,7 +29,10 @@ export default function Home() {
       <div>
         <AboutSection />
       </div>
-
+      
+      <div>
+        <Testimonials />
+      </div>
 
     </RootLayout>
   )
