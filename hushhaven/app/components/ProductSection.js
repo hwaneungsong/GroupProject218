@@ -8,14 +8,13 @@ export default function ProductSection() {
       <div className={styles.productContainer}>
         <div className={styles.productCard}>
           <h3 className={styles.productTitle}>TOWELS</h3>
-          <img src="../images/Towels.png" alt="Towels" className={styles.productImage}/>
+          <img src="/images/Towels.png" alt="Towels" className={styles.productImage}/>
         </div>
         <div className={styles.productCard}>
           <h3 className={styles.productTitle}>ROBES</h3>
-          <img src="../images/Robes.png" alt="Robes" className={styles.productImage}/>
+          <img src="/images/Robes.png" alt="Robes" className={styles.productImage}/>
         </div>
       </div>
     </section>
   );
 }
-

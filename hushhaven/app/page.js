@@ -24,6 +24,9 @@ export default function Home() {
         <ProductSection />
       </div>
 
+      <div>
+        <AboutSection />
+      </div>
 
 
     </RootLayout>
