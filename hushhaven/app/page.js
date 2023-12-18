@@ -4,7 +4,10 @@ import RootLayout, {siteTitle} from './layout'
 import NavigationBar from './components/NavigationBar'
 import HeroSection from './components/HeroSection'
 import OfferSection from './components/OfferSection'
+import ProductSection from './components/ProductSection'
 import AboutSection from './components/AboutSection'
+import Testimonials from './components/Testimonials'
+
 export default function Home() {
   return (  
     <RootLayout home>
@@ -17,14 +20,19 @@ export default function Home() {
       </div>
       <div>
         <OfferSection />
-      </div>  
+      </div>
+
+      <div>
+        <ProductSection />
+      </div>
 
       <div>
         <AboutSection />
       </div>
-
-
-
+      
+      <div>
+        <Testimonials />
+      </div>
 
     </RootLayout>
   )
