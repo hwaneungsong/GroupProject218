@@ -5,7 +5,6 @@ import NavigationBar from './components/NavigationBar'
 import HeroSection from './components/HeroSection'
 import OfferSection from './components/OfferSection'
 import ProductSection from './components/ProductSection'
-import AboutSection from './components/AboutSection'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 
@@ -24,15 +23,12 @@ export default function Home() {
       </div>
       <div>
         <ProductSection />
-      </div>
-      <div>
-        <AboutSection />
-      </div>    
+      </div>  
       <div>
         <Testimonials />
       </div>
       <div>
-        <Footer />
+        <Footer />  
       </div>
     </RootLayout>
   )
