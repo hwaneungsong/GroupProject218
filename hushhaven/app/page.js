@@ -7,10 +7,7 @@ import OfferSection from './components/OfferSection'
 import ProductSection from './components/ProductSection'
 import AboutSection from './components/AboutSection'
 import Testimonials from './components/Testimonials'
-<<<<<<< HEAD
 import Footer from './components/Footer'
-=======
->>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
 
 export default function Home() {
   return (  
@@ -25,29 +22,18 @@ export default function Home() {
       <div>
         <OfferSection />
       </div>
-
       <div>
         <ProductSection />
       </div>
-
       <div>
         <AboutSection />
-      </div>
-      
+      </div>    
       <div>
         <Testimonials />
       </div>
-
-<<<<<<< HEAD
       <div>
         <Footer />
       </div>
-
-
-
-
-=======
->>>>>>> 3070143418e73041ec49b9566c34ae05898118a0
     </RootLayout>
   )
 }
